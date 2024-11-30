@@ -7,16 +7,15 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Powerbank Easy to Go",
+    title: "PlugPoint Sewa PowerBank Cepat & Flexibel",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit, sapiente provident! Delectus recusandae fuga voluptatum.",
+      "PlugPoint merupakan perusahaan jasa penyewaan powerbank berdomisili di Jakarta, dengan fitur pertama yang menyesuaikan kabel charge sesuai dengan brand Device Anda",
   },
   {
     id: 2,
     img: Image2,
-    title: " Lorem, ipsum dolor.",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit, sapiente provident! Delectus recusandae fuga voluptatum.",
+    title: "Plugpoint Siap Pakai, Kapan Saja Kamu Butuh",
+    description: "",
   },
 ];
 
@@ -46,7 +45,7 @@ const Hero = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 items-center w-screen">
               {/* Text content */}
               <div className="flex flex-col justify-center gap-4 pt-12 relative z-10 px-4 sm:px-8">
-                <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
+                <h1 className="text-4xl sm:text-4xl lg:text-5xl font-bold">
                   {data.title}
                 </h1>
                 <p className="text-sm">{data.description}</p>

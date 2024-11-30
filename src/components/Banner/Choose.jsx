@@ -1,36 +1,37 @@
 import React from "react";
-import { FaCameraRetro } from "react-icons/fa6";
+import { FaPlug } from "react-icons/fa";
+import { BiMapPin } from "react-icons/bi";
+import { FaRecycle } from "react-icons/fa";
 
 const Choose = () => {
   const skillsData = [
     {
-      name: "Best Price",
+      name: "Fleksibilitas",
       icon: (
-        <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+        <FaPlug className="text-5xl text-primary group-hover:text-black duration-300" />
       ),
       link: "#",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt cupiditate dolorum ipsa sed ab!",
+      description: "Power bank dengan pilihan kabel sesuai Brand Device",
       aosDelay: "0",
     },
     {
-      name: "Best Price",
+      name: "Kemudahan",
       icon: (
-        <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+        <BiMapPin className="text-5xl text-primary group-hover:text-black duration-300" />
       ),
       link: "#",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt cupiditate dolorum ipsa sed ab!",
+        "Tersedia di lokasi strategis seperti food court, mall, dan terminal.",
       aosDelay: "500",
     },
     {
-      name: "Best Price",
+      name: "Ramah Lingkungan",
       icon: (
-        <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+        <FaRecycle className="text-5xl text-primary group-hover:text-black duration-300" />
       ),
       link: "#",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt cupiditate dolorum ipsa sed ab!",
+        "Mengurangi limbah elektronik dengan sistem berbagi power bank.",
       aosDelay: "1000",
     },
   ];
@@ -52,9 +53,12 @@ const Choose = () => {
             >
               <div className="grid place-items-center">
                 <div>{data.icon}</div>
-                <h1>{data.name}</h1>
-                <p>{data.description}</p>
-                <a href={data.link}>Learn More</a>
+                <h1 className="font-bold text-2xl py-2  group-hover:text-white ">
+                  {data.name}
+                </h1>
+                <p className="font-semibold  group-hover:text-white">
+                  {data.description}
+                </p>
               </div>
             </div>
           ))}

@@ -3,35 +3,35 @@ import Image1 from "../../assets/image1.png";
 import Profile1 from "../../assets/profile1.jpg";
 import Profile2 from "../../assets/profile2.jpg";
 import Profile3 from "../../assets/profile3.jpg";
-import { FaStar } from "react-icons/fa6";
+import Profile4 from "../../assets/profile4.png";
 
 const CreatorData = [
   {
     id: 1,
-    img: Profile3,
-    name: "Edward Thomas",
-    nim: 535210102,
+    img: Profile2,
+    name: "Jordy Aprianto",
+    nim: 53521073,
     aosDelay: "0",
   },
   {
     id: 2,
-    img: Profile2,
-    name: "Jordy Aprianto",
-    nim: 535210102,
+    img: Profile4,
+    name: "Giant Pratista",
+    nim: 535210078,
     aosDelay: "0",
   },
   {
     id: 3,
-    img: Profile1,
-    name: "Ceciliana Takeshi",
+    img: Profile3,
+    name: "Edward Thomas Alexander",
     nim: 535210102,
     aosDelay: "0",
   },
   {
     id: 4,
-    img: Image1,
-    name: "Giant Pratista",
-    nim: 535210102,
+    img: Profile1,
+    name: "Ceciliana Takeshi",
+    nim: 535210114,
     aosDelay: "0",
   },
 ];
@@ -45,7 +45,7 @@ const Products = () => {
           <p data-aos="fade-up" className="text-3xl font-bold text-primary">
             The Creator of PlugPoint
           </p>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
+          <p data-aos="fade-up" className="text-xl text-gray-400">
             Anggota Kelompok dari Pembuat Ide Perusahaan PlugPoint
           </p>
         </div>

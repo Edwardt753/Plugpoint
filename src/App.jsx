@@ -27,9 +27,9 @@ function App() {
         <Navbar />
         <Hero />
         <Products />
-        <Banner />
-        <Brand />
         <Description />
+        <Brand />
+        <Banner />
         <Choose />
         <Footer />
       </div>

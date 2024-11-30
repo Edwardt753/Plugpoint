@@ -1,8 +1,7 @@
 import React from "react";
-import Image1 from "../../assets/image3.png";
-import { GrSecure } from "react-icons/gr";
-import { IoFastFood } from "react-icons/io5";
-import { GiFoodTruck } from "react-icons/gi";
+import Image1 from "../../assets/pb3.jpg";
+import { FaBolt, FaLeaf } from "react-icons/fa";
+import { MdPower } from "react-icons/md";
 
 const Banner = () => {
   return (
@@ -23,27 +22,29 @@ const Banner = () => {
               data-aos="fade-up"
               className="text-3xl sm:text-4xl font-bold text-primary"
             >
-              Rental Powerbank Dengan Harga Terjangkau
+              Visi dan Misi
             </h1>
-            <p
+            {/* <p
               data-aos="fade-up"
               className="text-sm text-gray-500 tracking-wide leading-5"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              explicabo non dolore in praesentium ullam.
-            </p>
-            <div data-aos="fade-up" className="flex flex-col gap-4">
-              <div className="flex items-center gap-4">
-                <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-teal-200" />
-                <p>Lorem ipsum dolor sit amet.</p>
+              Menyediakan solusi pengisian daya yang mudah, cepat, dan fleksibel
+              untuk mendukung mobilitas modern.
+            </p> */}
+            <div data-aos="fade-up" className="flex flex-col gap-4 pt-4">
+              <div className="flex items-center gap-4 py-2">
+                <FaBolt className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-teal-200" />
+                <p>
+                  Menjadi layanan power bank berbagi terbaik di Indonesia dengan
+                  pendekatan yang ramah lingkungan.
+                </p>
               </div>
-              <div className="flex items-center gap-4">
-                <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-teal-200" />
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div className="flex items-center gap-4">
-                <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-teal-200" />
-                <p>Lorem ipsum dolor sit amet.</p>
+              <div className="flex items-center gap-4 py-2">
+                <MdPower className="text-4xl h-12 w-12 shadow-sm p-2 rounded-full bg-teal-200" />
+                <p>
+                  Menyediakan solusi pengisian daya yang mudah, cepat, dan
+                  fleksibel untuk mendukung mobilitas modern.
+                </p>
               </div>
             </div>
           </div>
