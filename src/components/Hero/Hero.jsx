@@ -14,8 +14,8 @@ const ImageList = [
   {
     id: 2,
     img: Image2,
-    title: "Plugpoint Siap Pakai, Kapan Saja Kamu Butuh",
-    description: "",
+    title: "Just Tap, Charge, and Go!",
+    description: "Plugpoint, Solusi Pengisian Daya As You Go",
   },
 ];
 
