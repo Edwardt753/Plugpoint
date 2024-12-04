@@ -1,5 +1,5 @@
 import React from "react";
-import Image1 from "../../assets/splashscreen.png";
+import Image1 from "../../assets/mockup.png";
 
 const Description = () => {
   return (
@@ -7,7 +7,7 @@ const Description = () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 items-center">
           <div data-aos="fade-up" className="">
-            <img src={Image1} alt="" className="pt-9 ml-36" />
+            <img src={Image1} alt="" className="pt-9 pr-9" />
           </div>
           {/* Text Section */}
           <div data-aos="fade-up" className="">
